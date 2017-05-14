@@ -3,5 +3,6 @@ python:
   - "2.7"
 
 # command to install dependencies
-
+install: "pip install safety"
 # command to run tests
+script: "safety check"
