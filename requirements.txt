@@ -2,3 +2,4 @@ graypy==0.2.14
 mysql-connector-python-rf==2.2.2
 raven==6.0.0
 beanstalkc==0.4.0
+redis==2.10.5
