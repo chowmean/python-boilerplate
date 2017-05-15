@@ -3,6 +3,9 @@ python:
   - "2.7"
 
 # command to install dependencies
-install: "pip install safety"
+install: 
+  - "pip install safety"
+  - "pip install fab-polish"
 # command to run tests
-script: "safety check -r requirements.txt"
+script: 
+  "safety check -r requirements.txt"
