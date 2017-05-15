@@ -6,6 +6,7 @@ python:
 install: 
   - "pip install safety"
   - "pip install fab-polish"
+  - "pip install coverage"
 # command to run tests
 script: 
-  "safety check -r requirements.txt"
+  "fab polish"

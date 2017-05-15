@@ -8,3 +8,4 @@ def composer_security_check_npm():
     """Requires nsp in package"""
     info('Running security check for python dependencies...')
     return local("safety check -r requirements.txt")
+    
